@@ -1,5 +1,5 @@
 🏹ยิงเบอร์🏹
-
+สคริปฟรี
 🏹git clone https://github.com/sakol289/sms/
 🏹pkg upgrade && pkg update
 🏹pkg install python2
